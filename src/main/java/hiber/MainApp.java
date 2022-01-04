@@ -37,8 +37,7 @@ public class MainApp {
          System.out.println();
       }
 
-      List<User> users2 = userService.getUserWithCar("BMV",5);
-         System.out.println(users2.toString());
+      System.out.println(userService.getUserWithCar("BMV",5));
 
       context.close();
    }
